@@ -71,4 +71,13 @@
 		color: #fff;
 		z-index: 1;
 	}
+
+    @media (max-width: 600px) {
+        .landing-cont {
+            /* padding: 0 1rem; */
+        }
+        .blurb {
+            font-size: 1rem;
+        }
+    }
 </style>
