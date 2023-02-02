@@ -1,6 +1,3 @@
-<!-- <h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
@@ -9,8 +6,6 @@
 </script>
 
 <div class="landing-cont">
-	<!-- <h1>nebula</h1> -->
-	<!-- <img src={logo} alt="" /> -->
 	<div class="blurb">
         Over time the inhabitants had become accustomed to a lack of activity. <br />
 		The sameness of the days, the seasons, the years. <br />
@@ -26,7 +21,7 @@
 	</div>
     
     <div class="leaving-date">
-        SCOUTING EXPEDITION : 2023 - 2 - 9 <br />
+        EVAC POD SIGNAL [ 2023.2.9 ] <br />
     </div>
 
     <div class="logo-container">
@@ -46,14 +41,12 @@
     }
 
     .blurb {
-        /* align-self: center; */
-        /* justify-self: center; */
+        padding: 0 2rem;
         margin-top: 20%;
         font-size: 1.3rem;
         font-weight: 400;
         color: #fff;
         text-align: left;
-        /* margin-top: 2rem; */
         line-height: 2;
     }
 
@@ -67,6 +60,7 @@
         margin-top: auto;
         margin-bottom: 2rem;
     }
+
 	.landing-cont {
 		display: flex;
 		flex-direction: column;
@@ -76,11 +70,5 @@
 		width: 100vw;
 		color: #fff;
 		z-index: 1;
-		/* background-color: #f5f5f5; */
-	}
-	h1 {
-		font-size: 5rem;
-		font-weight: 700;
-		color: #fff;
 	}
 </style>
