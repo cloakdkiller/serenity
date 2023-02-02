@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+		<canvas class="background"></canvas>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+		<script>
+			window.onload = function () {
+				Particles.init({
+					selector: '.background',
+					connectParticles: true,
+					maxParticles: 200,
+					sizeVariations: 3,
+					// color: "#D92888"
+					color: "#751B59"
+				});
+			};
+		</script>
+	</body>
+	<style>
+		div {
+			z-index: 1 ;;
+		}
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: "Poppins", sans-serif;
+		}
+
+		.background {
+			background-color: #000;
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+
+	</style>
+</html>
