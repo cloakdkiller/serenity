@@ -10,31 +10,35 @@
 		<div>%sveltekit.body%</div>
 		<canvas class="background"></canvas>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-		<script>
+		<script async defer>
 			window.onload = function () {
+
 				Particles.init({
 					selector: '.background',
 					connectParticles: true,
-					maxParticles: 200,
+					maxParticles: window.innerWidth > 600 ? 200 : 50,
 					sizeVariations: 3,
-					// color: "#D92888"
-					color: "#751B59"
+					color: '#751B59'
 				});
 			};
 		</script>
 	</body>
 	<style>
 		div {
-			z-index: 1 ;;
+			z-index: 1;
 		}
 		html,
 		body {
 			margin: 0;
 			padding: 0;
-			font-family: "Poppins", sans-serif;
+			/* background-color: #000; */
+			font-family: 'Poppins', sans-serif;
+			overflow: hidden;
 		}
 
 		.background {
+			height: 100vh;
+			width: 100vw;
 			background-color: #000;
 			position: absolute;
 			display: block;
@@ -42,6 +46,5 @@
 			left: 0;
 			z-index: -1;
 		}
-
 	</style>
 </html>

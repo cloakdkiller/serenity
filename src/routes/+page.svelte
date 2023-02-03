@@ -42,7 +42,7 @@
 
     .blurb {
         padding: 0 2rem;
-        margin-top: 20%;
+        margin-top: 10%;
         font-size: 1.3rem;
         font-weight: 400;
         color: #fff;
@@ -58,7 +58,7 @@
 
     .logo-container {
         margin-top: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 10rem;
     }
 
 	.landing-cont {
