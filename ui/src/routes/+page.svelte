@@ -17,11 +17,12 @@
         Who found the nothingness to be a prison. <br />
         Who yearned for something more. <br /> <br/>
         
-        And so they left. <br />
+        And so we left. <br />
 	</div>
     
     <div class="leaving-date">
-        EVAC POD SIGNAL [ 2023.2.9 ] <br />
+        EVAC POD SIGNAL [ 2023.2.03 ] <br />
+        .... [ 2023.2.10 ] <br />
     </div>
 
     <div class="logo-container">
@@ -35,7 +36,7 @@
         font-size: 1.1rem;
         font-weight: 900;
         color: #fff;
-        text-align: Left;
+        text-align: right;
         margin-top: 2rem;
         line-height: 2;
     }
