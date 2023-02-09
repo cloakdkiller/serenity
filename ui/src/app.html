@@ -8,19 +8,13 @@
 	</head>
 	<body>
 		<div>%sveltekit.body%</div>
-		<canvas class="background"></canvas>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap"
+			rel="stylesheet"
+		/>
 		<script>
-			window.onload = function () {
-
-				Particles.init({
-					selector: '.background',
-					connectParticles: true,
-					maxParticles: window.innerWidth > 600 ? 200 : 50,
-					sizeVariations: 3,
-					color: '#751B59'
-				});
-			};
 		</script>
 	</body>
 	<style>
@@ -31,20 +25,12 @@
 		body {
 			margin: 0;
 			padding: 0;
-			/* background-color: #000; */
 			font-family: 'Poppins', sans-serif;
-			overflow: hidden;
-		}
-
-		.background {
-			height: 100vh;
-			width: 100vw;
+			overflow-x: hidden;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box; /* Firefox, other Gecko */
+			box-sizing: border-box; /* Opera/IE 8+ */
 			background-color: #000;
-			position: absolute;
-			display: block;
-			top: 0;
-			left: 0;
-			z-index: -1;
 		}
 	</style>
 </html>

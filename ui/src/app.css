@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+	/* @apply rounded-full; */
+}
+
+.btn-nebula {
+    background-color: #751B59;
+    outline: none;
+    border: none;
+}
