@@ -90,15 +90,13 @@
 			<div class="blurb">
 				We deployed a party to investigate the asteroid, and there we discovered what appeared to be
 				a portal to another world.<br /> <br />
-				<div class="portal-img-container">
+				<div class="portal-img-container mb-10">
 					<img src={portal_lofi} alt="" />
 				</div>
 
 				We stood at the threshold, torn between our thirst for adventure and the fear of the
-				unknown.<br />
-				We stepped through.<br /> <br />
-
-				Do you dare to follow us?<br />
+				unknown.<br /><br/>
+				We stepped through. Do you dare to follow us?<br />
 			</div>
 
 			<div class="button-container flex flex-col mt-4">
