@@ -103,7 +103,7 @@
 
 			<div class="button-container flex flex-col mt-4">
 				<button
-					on:click={() => goto(`https://rocketswap.exchange`)}
+					on:click={() => goto(`https://portal.rocketswap.exchange`)}
 					class="next-button btn-primary"
 				>
 					{'<< enter the portal >>'}
